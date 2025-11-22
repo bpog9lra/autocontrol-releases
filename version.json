@@ -1,10 +1,12 @@
 {
-  "latest_version": "1.0.0",
-  "min_supported_version": "1.0.0",
-  "download_url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.0.0/AutoControl-1.0.0.exe",
-  "changelog": [
-    "Первый стабильный релиз AutoControl.",
-    "Реализован модуль автообновления через GitHub Releases.",
-    "Стабилизирована работа GUI и авторизации."
-  ]
+    "latest_version": "1.1.0",
+    "min_supported_version": "1.0.0",
+    "download_url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.1.0/AutoControl-1.1.0.exe",
+    "changelog": [
+        "Новая система графиков (SCADA стиль)",
+        "Дашборд полностью переработан",
+        "Исправлены дубль-события на досмотре",
+        "Добавлен модуль Vehicle Stats",
+        "Автообновление стабилизировано"
+    ]
 }
