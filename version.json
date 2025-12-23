@@ -2,5 +2,5 @@
     "latest_version": "1.3.5",
     "min_supported_version": "1.3.0",
     "installer": true,
-    "url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.3.5/AutoControl-1.3.5-setup.exe"
+    "download_url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.3.5/AutoControl-1.3.5-setup.exe"
 }
