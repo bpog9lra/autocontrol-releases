@@ -1,6 +1,10 @@
 {
-    "latest_version": "1.4.1",
-    "min_supported_version": "1.3.0",
-    "installer": true,
-    "download_url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.4.1/AutoControl-1.4.1-setup.exe"
+  "latest_version": "1.4.2",
+  "min_supported_version": "1.0.0",
+  "download_url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.4.2/AutoControl-1.4.2-setup.exe",
+  "changelog": [
+    "Исправлен запуск приложения с ярлыков после установки",
+    "Обновлены параметры сборки installer для версии 1.4.2",
+    "Синхронизирована версия релиза и приложения"
+  ]
 }
