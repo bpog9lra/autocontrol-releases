@@ -1,8 +1,10 @@
 {
-  "latest_version": "1.5.1",
+  "latest_version": "1.5.2",
   "min_supported_version": "1.0.0",
-  "download_url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.5.1/AutoControl-1.5.1-setup.exe",
-  "changelog": [    
-    "Синхронизирована версия релиза и приложения"
+  "download_url": "https://github.com/bpog9lra/autocontrol-releases/releases/download/v1.5.2/AutoControl-1.5.2-setup.exe",
+  "changelog": [
+    "Исправлен запуск обновления: расширен поиск update_bootstrap.exe",
+    "Добавлен fallback на прямой запуск установщика при отсутствии bootstrap",
+    "Стабилизирован процесс автообновления после скачивания пакета"
   ]
 }
