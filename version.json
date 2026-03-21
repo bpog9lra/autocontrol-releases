@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.5.2",
+  "latest_version": "1.5.3",
   "min_supported_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.2-setup.exe",
+  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.3-setup.exe",
   "changelog": [
-    "Исправлен запуск обновления: расширен поиск update_bootstrap.exe",
-    "Добавлен fallback на прямой запуск установщика при отсутствии bootstrap",
-    "Стабилизирован процесс автообновления после скачивания пакета"
+    "Исправлен запуск обновления: при ошибке bootstrap используется надежный direct fallback",
+    "Добавлен helper-процесс для запуска установщика и последующей очистки скачанного setup.exe из %TEMP%",
+    "Устранена потеря pending-обновления при неудачном запуске инсталлятора"
   ]
 }
