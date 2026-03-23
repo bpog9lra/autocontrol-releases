@@ -1,10 +1,13 @@
-{
-  "latest_version": "1.5.3",
+﻿{
+  "latest_version": "1.5.4",
   "min_supported_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.3-setup.exe",
+  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.4-setup.exe",
   "changelog": [
-    "Исправлен запуск обновления: при ошибке bootstrap используется надежный direct fallback",
-    "Добавлен helper-процесс для запуска установщика и последующей очистки скачанного setup.exe из %TEMP%",
-    "Устранена потеря pending-обновления при неудачном запуске инсталлятора"
+    "Усилена ролевая модель: наблюдатель работает только в режиме просмотра (без add/edit/delete).",
+    "Скрыты действия изменения и меню \"Инструменты\" для роли наблюдателя.",
+    "Скрыта кнопка \"Выгнать\" в статистике для наблюдателя; добавлены backend-проверки прав на операции записи.",
+    "Исправлен запуск обновления: при ошибке bootstrap используется надежный direct fallback.",
+    "Добавлен helper-процесс для запуска установщика и последующей очистки скачанного setup.exe из %TEMP%.",
+    "Устранена потеря pending-обновления при неудачном запуске инсталлятора."
   ]
 }
