@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.5.7",
+  "latest_version": "1.5.8",
   "min_supported_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.7-setup.exe",
+  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.8-setup.exe",
   "changelog": [
-    "Фикс автообновления относительно 1.4.3: после handoff в updater процесс принудительно завершается (убрано зависание bootstrap на живом AutoControl.exe).",
-    "Bootstrap обновления: ожидание по PID с таймаутом и отдельный bootstrap.log для диагностики.",
-    "Парсинг version.json устойчив к UTF-8 BOM (utf-8-sig).",
-    "Наблюдатель: только просмотр, скрыты действия изменения и меню инструментов."
+    "Фикс прав: наблюдатель больше не видит кнопку 'Выгнать' в статистике и не может выполнять это действие.",
+    "Нормализация ролей усилена (viewer/observer/наблюдатель и др.) для корректного применения ограничений.",
+    "Принудительный выезд ограничен ролями admin/superadmin.",
+    "Сохранены фиксы автообновления из предыдущих релизов."
   ]
 }
