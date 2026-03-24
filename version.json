@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.5.6",
+  "latest_version": "1.5.7",
   "min_supported_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.6-setup.exe",
+  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.7-setup.exe",
   "changelog": [
-    "Hotfix обновления: bootstrap теперь ждёт завершение только текущего процесса по PID (без зависаний по имени процесса).",
-    "Добавлено логирование bootstrap в %TEMP%\\AutoControl_Update\\bootstrap.log для диагностики на клиентах.",
+    "Фикс автообновления относительно 1.4.3: после handoff в updater процесс принудительно завершается (убрано зависание bootstrap на живом AutoControl.exe).",
+    "Bootstrap обновления: ожидание по PID с таймаутом и отдельный bootstrap.log для диагностики.",
     "Парсинг version.json устойчив к UTF-8 BOM (utf-8-sig).",
-    "Наблюдатель работает только в режиме просмотра: скрыты кнопки изменения, выгрузка и меню инструментов."
+    "Наблюдатель: только просмотр, скрыты действия изменения и меню инструментов."
   ]
 }
