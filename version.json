@@ -1,6 +1,6 @@
 {
   "latest_version": "1.5.8",
-  "min_supported_version": "1.0.0",
+  "min_supported_version": "1.5.4",
   "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.8-setup.exe",
   "changelog": [
     "Фикс прав: наблюдатель больше не видит кнопку 'Выгнать' в статистике и не может выполнять это действие.",
