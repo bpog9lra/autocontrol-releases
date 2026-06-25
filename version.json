@@ -1,16 +1,16 @@
 {
-  "latest_version": "1.5.13",
+  "latest_version": "1.5.14",
   "min_supported_version": "1.5.4",
-  "download_url": "https://ghproxy.net/https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.13-setup.exe",
+  "download_url": "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.14-setup.exe",
   "download_urls": [
-    "https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.13-setup.exe"
+    "https://ghproxy.net/https://raw.githubusercontent.com/bpog9lra/autocontrol-releases/main/releases/AutoControl-1.5.14-setup.exe"
   ],
-  "sha256": "A51E87699BA57C6E1DAF0EF9F601854AF9966BD398D0A0FB7E229285ECABE521",
+  "sha256": "AD60E4A427DA0C62BCB56F6A34793809307C35E4F6C544911C249F73F96A9510",
   "changelog": [
-    "Проверка обновлений переведена на свежие данные GitHub API без зависимости от CDN-кэша.",
-    "Добавлены резервные CDN-адреса для version.json.",
-    "Добавлено автоматическое переключение источника установщика.",
+    "Проверка обновлений переведена на свежие данные GitHub API.",
+    "Большие установщики загружаются через официальный GitHub Blob API.",
+    "Добавлены резервные CDN и прокси-источники.",
     "Увеличены таймауты загрузки больших файлов.",
-    "Добавлена проверка SHA-256 скачанного установщика."
+    "Добавлена обязательная проверка SHA-256 установщика."
   ]
 }
